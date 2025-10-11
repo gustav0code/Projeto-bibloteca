@@ -20,6 +20,12 @@
     height: auto;
 }
 
+.numero::-webkit-outer-spin-button,
+.numero::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
 body{
     display: flex;
     justify-content: center;
@@ -116,12 +122,42 @@ body{
 
 }
 
+/* Tela de validar código de reset de senha */
+
+.Botão-login a{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+
+
+}
+
+.Botão-login a:hover{
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    color: #fff;
+    transition: 0.5s;
+    text-decoration: none;
+}
+/* Fim */
+
 .Botão-login:hover{
     background-color: transparent;
     border: 2px solid rgba(255, 255, 255, .2);
     color: #fff;
     transition: 0.5s;
 
+}
+
+.botoes-reset{
+    justify-content: center;
 }
 
 .register-link{
